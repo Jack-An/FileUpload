@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.util.List;
+import java.util.UUID;
 
 @Controller
 @RequestMapping("/file")
@@ -21,7 +22,7 @@ public class FileController {
         //文件上传的位置
         String path = req.getSession().getServletContext().getRealPath("/upload");
         File file = new File(path);
-        if(!file.exists()){
+        if (!file.exists()) {
             file.mkdirs();
         }
 
@@ -33,28 +34,27 @@ public class FileController {
         System.out.println("开始写入文件");
         //
         List<FileItem> items = upload.parseRequest(req);
-        for(FileItem item:items){
+        for (FileItem item : items) {
             //判断当前item是否是上传文件项
-            if(item.isFormField()){
-                //普通表单项
-            }else{
+            if (!item.isFormField()) {
                 //文件项
                 //获取上传文件的名称
-                String filename =item.getName();
+                String filename = item.getName();
                 int idx = filename.lastIndexOf("\\");
-                filename = filename.substring(idx+1);
-                System.out.println(filename);
+                filename = filename.substring(idx + 1);
+                String uuid = UUID.randomUUID().toString().replace("-", "");
+                filename = uuid + "_" + filename;
+//                System.out.println(filename);
 //                System.out.println(filename);
 //                System.out.println(path);
                 item.write(new File(path, filename));
                 //删除临时文件
                 item.delete();
             }
-       }
+        }
 
         return "success";
     }
-
 
 
 }
