@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43d88e7-39ac-4fe4-97d7-d4903e40bbbb" name="Default Changelist" comment="" />
+    <list default="true" id="a43d88e7-39ac-4fe4-97d7-d4903e40bbbb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jackan/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jackan/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FileUpload/WEB-INF/classes/cn/jackan/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FileUpload/WEB-INF/classes/cn/jackan/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FileUpload/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/FileUpload/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FileUpload/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/FileUpload/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/jackan/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/jackan/controller/FileController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -38,7 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Pb2iHWFOExolbvYHEHQ3iOPHct" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -148,10 +162,22 @@
       <option name="presentableId" value="Default" />
       <updated>1566128600527</updated>
       <workItem from="1566128604122" duration="4024000" />
+      <workItem from="1566132856400" duration="2550000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
